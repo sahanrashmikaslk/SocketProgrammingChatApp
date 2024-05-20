@@ -1,4 +1,4 @@
-# Anonymous ChatApp
+# ChatApp using Socket Programming (Java)
 
 This repository contains a chat application with a GUI for exchanging text messages between multiple computers over the internet. 
 The application is built using Java socket programming and JavaFX. 
