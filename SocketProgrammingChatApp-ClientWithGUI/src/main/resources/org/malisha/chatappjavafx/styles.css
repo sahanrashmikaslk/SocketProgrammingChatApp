@@ -1,0 +1,69 @@
+.bubble {
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-spacing: 10;
+}
+
+.bubble-sent {
+    -fx-background-color: #4399ff;
+}
+
+Text {
+    -fx-fill: white;
+    -fx-font-size: 20;
+}
+
+.bubble-text {
+    -fx-fill: black;
+}
+
+.bubble-received {
+    -fx-background-color: #dce8ff;
+    -fx-fill: #000000;
+}
+
+.bubble-server {
+    -fx-fill: #000000;
+}
+
+.bubble-private-sent {
+    -fx-background-color: #f8e836;
+    -fx-text-fill: #ffffff;
+}
+
+.bubble-private-receive {
+    -fx-background-color: #f8367b;
+    -fx-text-fill: #ffffff;
+}
+
+.custom-button {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+}
+
+.custom-button:hover {
+    -fx-background-color: lightgray; /* New color on hover */
+}
+
+.custom-button:pressed {
+    -fx-background-color: white;
+}
+
+.send-button {
+    -fx-background-color: #4399ff;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+}
+
+.send-button:hover {
+    -fx-background-color: white; /* New color on hover */
+    -fx-text-fill: black;
+}
+
+.send-button:pressed {
+    -fx-background-color: #4399ff;
+    -fx-text-fill: white;
+}
+
