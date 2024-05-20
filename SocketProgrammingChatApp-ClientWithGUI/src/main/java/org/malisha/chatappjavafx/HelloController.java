@@ -95,7 +95,7 @@ public class HelloController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
-            client = new Client(new Socket("13.200.255.45", 1234));
+            client = new Client(new Socket("localhost", 1234)); //localhost
             client.listenForMessage(this::addMessageToBox);
             System.out.println("Connected to the server.");
         } catch (IOException e) {
