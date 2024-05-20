@@ -1,6 +1,7 @@
 # ChatApp using Socket Programming (Java)
 
 This repository contains a chat application with a GUI for exchanging text messages between multiple computers over the internet. 
+As a group Project of the University, we developed for Networking Programming module during the 6th Semester.
 The application is built using Java socket programming and JavaFX. 
 Users can connect to a chat server with a unique username and see who is online in the same chat room. 
 This application includes separate server and client components, and also the server is already hosted on an Amazon AWS EC2 cloud server or you can use it locally using localhost
@@ -142,6 +143,7 @@ The server component is hosted on an AWS EC2 cloud server. To run your own serve
 
 ## Contributors
 
+- Sahan Lelwala
 - Dushmin Malisha
 - Srijith Yaparathna
 
